@@ -1,0 +1,108 @@
+html,body,main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: black;
+}
+#dp{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+}
+#logo{
+     display: inline-block;
+     width: 40%;
+     vertical-align: top;
+     color: white;
+     padding-left: 240px;
+     font-weight: bold;
+     font-family: Arial;
+}
+#nav{
+    display: inline-block;
+     width: 30%;
+    vertical-align: top;
+    padding-left: 250px;
+    padding-top: 140px;
+}
+#nav a{
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+#nav a:hover{
+    color: orange;
+}
+#dp img{
+    width: 250px;
+    height: 150px;
+}
+.sidebar{
+    width: 20%;
+    display: inline-block;
+    background-color: teal;
+    height: 73vh;
+    text-align: center;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.sidebar ul li {
+   padding: 10px 0;
+    border-bottom: .7px dashed black;
+}
+.sidebar ul li:hover{
+    background-color: gray;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.sidebar ul li a:hover{
+    color: wheat;
+}
+.sidebar footer p{
+    font-size: 12px;
+    color: white;
+}
+.content{
+    width: 80%;
+    display: inline-block;
+    background-color: teal;
+    height:  73vh;
+    padding: 30px 30px;
+}
+.content div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+#table{
+    width: 350px;
+}
+#table td{
+    text-align: center;
+    color: white;
+}
+.edit{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border: none;
+}
+.delete{
+     background-color: red;
+    padding: 5px;
+    color: white;
+    border: none;
+}
